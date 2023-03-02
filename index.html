@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>To do app in Javascript</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+<!-- To start the structure in HTML, I open a DIV to which I attach the container class. Inside the container I put another div with the card-container class, in which I am going to put and delete the activities of the to-do app. 
+Inside the container I put an input-container where I am going to write my text. The second is the task container, in which I am going to put all the tasks that I add or delete.-->
+        <div class="container">
+            <div class="card-container">
+                <div class="input-container">
+                    <h1>Add new thing</h1>
+                    <input type="text" id="input" placeholder="Add to-do">
+                    <button id="input-button">ADD YOUR THING</button>
+                </div>
+                <div class="task-container">
+                    <h2>Tasks</h2>
+                        <ul id="task-List">    
+                                                   
+                        </ul>
+                </div>
+            </div>
+
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

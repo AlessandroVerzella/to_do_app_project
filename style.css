@@ -1,0 +1,106 @@
+body {
+    margin left: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(69,81,156,255);
+}
+
+.container {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+    padding-left: 45px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.card-container {
+    border: 2px solid black;
+    width: 90%;
+    height: 80%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+input {
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+button {
+    width: 35%;
+    height: 60px;
+    background-color: rgba(46,186,239,255);
+    color: white;
+    font-size: 16px;
+    border-color: blue;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 2px;
+    border-radius: 10px;
+    margin-top: 25px;
+    cursor: point;
+    outline: none;
+}
+
+h1 {
+    color: white;
+    font-weight: lighter;
+    font-size: 28px;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    font-weight: lighter;
+    font-size: 28px;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.task-container {
+    color: white;
+    font-weight: lighter;
+    font-size: 22px;
+    font-family: sans-serif;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+#task-List {
+    padding: 10px;
+    margin-left: 10%;
+}
+
+#task-List li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 5px;
+}
